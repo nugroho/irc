@@ -1,0 +1,2 @@
+deb https://termux.org/packages stable main
+deb https://apt.termux.com stable main
