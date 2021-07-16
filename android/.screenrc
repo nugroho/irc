@@ -1,0 +1,10 @@
+# C-a c
+screen
+# C-a S
+split
+# C-a <Tab>
+focus
+# C-a c
+screen
+# C-a <Tab> 
+focus
