@@ -15,3 +15,4 @@ all	:
 	apt install qemu-system-i386
 	apt install clang
 	apt install autoconf automake libtool yasm
+	apt install ffmpeg mpv
