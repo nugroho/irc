@@ -1,0 +1,7 @@
+# cvs update
+# svn update
+
+1. move to repository
+   - cd irc
+2. update  repository
+   - git pull https://github.com/nugroho/irc
