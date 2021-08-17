@@ -1,0 +1,4 @@
+1. Google Chrome
+2. URL https://github.com/settings/tokens
+3. Personal Access Tokens
+4. Generate New Token
