@@ -1,0 +1,13 @@
+1. Google Play Store
+
+2. Termux
+   + Fredrik Fornwall
+
+3. apt update
+   + apt install git
+   + apt install vim
+
+4. git clone https://github.com/nugroho/irc
+   + git add <file>/<directory>
+   + git commit
+   + git push
