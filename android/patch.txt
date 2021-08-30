@@ -1,0 +1,2 @@
+1. rcsdiff file.txt > patch.txt
+2. patch -n -i patch.txt file.txt
