@@ -1,0 +1,4 @@
+* pkg install svn
+* svn checkout https://github.com/nugroho/irc
+* svn update
+* svn log
