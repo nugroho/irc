@@ -1,2 +1,9 @@
 1. rcsdiff file.txt > patch.txt
 2. patch -n -i patch.txt file.txt
+TWM - .twmrc
+- cp -v -i ../usr/share/X11/twm/system.twmrc .
+patch
+- patch    -p1 system.twmrc < patch.twmrc.txt
+reverse
+- patch -R -p1 system.twmrc < patch.twmrc.txt
+- mv -v -i system.twmrc .twmrc
