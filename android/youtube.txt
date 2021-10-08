@@ -1,0 +1,2 @@
+1. apt install youtubedr
+2. youtubedr download -o "file.mp4" "youtube url"
