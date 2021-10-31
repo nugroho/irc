@@ -1,0 +1,8 @@
+* Meizu M5 Note
+  Google Chrome: 77.0.3865.92
+
+* VIVO Y12s
+  Google Chrome: 95.0.4638.50
+
+* HP chromebook 11G8
+  Google Chrome: 94.0.4606.104 (64 bits)
