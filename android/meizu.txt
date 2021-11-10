@@ -1,1 +1,6 @@
 * Linux localhost 3.18.31
+
+* Linux localhost 3.18.35+ (flyme@Mz-Builder-18) 
+  (gcc version 4.9 20150123 (prerelease) (GCC) ) #1
+  SMP PREEMPT
+  Thu Jun 14 12:19:20 CST 2018
