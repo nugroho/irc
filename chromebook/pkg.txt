@@ -4,10 +4,7 @@ apt install ksh mksh sash
 apt install mpg123
 apt install mpg321
 apt install madplay
-apt install youtubedr
-apt install youtube-dl
 apt install mplayer
-apt install youtube-dl
 apt install x11-apps
 apt install xnest
 apt install feh
@@ -19,8 +16,6 @@ apt install subversion
 apt install dselect
 apt install aptitude
 apt install texinfo
-apt install xorg-twm
-apt install xorg-twm
 apt install twm
 apt install tigervnc-standalone-server
 apt install tigervnc-xorg-extension
@@ -30,8 +25,6 @@ apt install w9wm
 apt install emacs
 apt install 9wm
 apt install bind9
-apt install bind9-utils
-apt install bind9-util
 apt install bind9utils
 apt install magic
 apt install ngspice
@@ -40,8 +33,6 @@ apt install fortune
 apt install bsdgames
 apt install xcircuit
 apt install pcb gerbv
-apt install gschem
-apt install geda-gschem gspiceui
 apt install geda-gschem 
 apt install busybox
 apt install blackbox
@@ -51,12 +42,9 @@ apt install wmaker
 apt install enlightenment
 apt install alsa-tools-gui
 apt install aumix
-apt install ldnutils
-apt install ldnsutils
 apt install ldnsutils
 apt install dnsutils
 apt install gvncviewer
-apt install xtighvncviewer
 apt install xtightvncviewer
 apt install tigervnc-viewer
 apt install ircii
@@ -78,18 +66,13 @@ apt install virtualbox-6.1_6.1.28-147628_Debian_buster_amd64.deb
 apt install libqt5opengl5
 apt install mate-desktop
 apt install alliance
-apt install xfce-desktop
-apt install lxde-desktop
-apt install xfce4-desktop
 apt install xfce4
 apt install make
 apt install autoconf
 apt install autogen
 apt install yasm
 apt install lxde
-apt install gdm
 apt install xdm
-apt install kdm
 apt install i3
 apt install gnuboard
 apt install xboard
