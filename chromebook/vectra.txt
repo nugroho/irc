@@ -1,0 +1,3 @@
+* Redhat Linux 9.0 (Shrike) 2.4
+
+* Suse   Linux              2.6
