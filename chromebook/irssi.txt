@@ -1,0 +1,19 @@
+servers = (
+  {
+    address = "irc.debian.org";
+    chatnet = "debian";
+    port = "6667";
+    use_tls = "no";
+    tls_verify = "no";
+    autoconnect = "yes";
+  }
+);
+chatnets = {
+  debian = {
+    type = "IRC";
+  };
+};
+channels = (
+  { name = "#debian"; chatnet = "debian"; autojoin = "yes"; }
+);
+ignores = ( { level = "JOINS QUITS"; } );
