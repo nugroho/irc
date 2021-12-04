@@ -10,3 +10,6 @@
 * Linux localhost 4.14.243-18084-g7bc10658733d #1
   SMP PREEMPT
   Tue Nov  9 14:20:16 PDT 2021 x86_64 Android
+* Linux localhost 4.14.249-18369-g6e52abcfeab4 #1
+  SMP PREEMPT
+  Sun Nov 28 20:51:00 PDT 2021 x86_64 Android
