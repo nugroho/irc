@@ -4,4 +4,8 @@
 
 * Linux penguin 5.4.139-16311-g330b3df0010b #1 
   SMP PREEMPT 
-  Mon Nov 8 12:23:05 PST 2021 x86_64 GNU/Linux
+  Mon Nov  8 12:23:05 PST 2021 x86_64 GNU/Linux
+
+* Linux penguin 5.4.151-16906-g86cbb761e8c4 #1 
+  SMP PREEMPT 
+  Sat Nov 27 19:46:30 PST 2021 x86_64 GNU/Linux
