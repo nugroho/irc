@@ -1,3 +1,13 @@
+#
+# git clone https://github.com/irssi/irssi
+# apt install libglib2.0-dev
+# ./autogen.sh
+# ./configure --prefix=/opt/irssi
+# make
+# chmod -v 1777 /opt
+# make install
+#
+
 servers = (
   {
     address = "irc.debian.org";
