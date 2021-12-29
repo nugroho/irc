@@ -1,0 +1,29 @@
+* qemu-img create -f qcow2 breezybadger.qcow2 512M
+
+* qemu-system-i386 -kernel vmlinuz -initrd image.gz -append "root=/dev/rd/0 rw --" \
+  -drive file=fat:rw:/mnt/chromeos/removable/USB\ Drive/ubuntu-acer/,index=1,media=disk \
+  -hda /home/arifendronugroho/breezybadger.qcow2
+
+* mount -t vfat -r /dev/hdb1 /ubuntu
+
+* fdisk /dev/hda1
+  - new partitions number 1 type ext3 linux
+  - active
+
+* mkfs.ext2 -L ubuntu-5-10-breezy /dev/hda1
+
+* mount /dev/hda1 /mnt
+
+* change directory to /mnt
+  - cd /mnt
+
+* tar xvzf /ubuntu/ubuntu.tar.gz
+  - umount /mnt
+  - umount /ubuntu
+
+* restart
+  - poweroff
+  - halt -d -f -i -p
+
+* qemu-system-i386 -kernel vmlinuz -initrd  initrd.img-2.6.12-9-386 -append "root=/dev/hda1" \
+  -hda /home/arifendronugroho/breezybadger.qcow2
