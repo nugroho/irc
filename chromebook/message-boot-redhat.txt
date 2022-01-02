@@ -1,0 +1,193 @@
+Linux version 2.6.17-13mdvlegacy (rtp@octopus.mandriva.com) (gcc version 4.1.2 20070302 (prerelease) (4.1.2-1mdv2007.1)) #1 SMP Fri Mar 23 19:05:24 UTC 2007
+BIOS-provided physical RAM map:
+ BIOS-e820: 0000000000000000 - 000000000009f000 (usable)
+ BIOS-e820: 000000000009f000 - 00000000000a0000 (reserved)
+ BIOS-e820: 00000000000dc000 - 0000000000100000 (reserved)
+ BIOS-e820: 0000000000100000 - 000000001ff60000 (usable)
+ BIOS-e820: 000000001ff60000 - 000000001ff77000 (ACPI data)
+ BIOS-e820: 000000001ff77000 - 000000001ff79000 (ACPI NVS)
+ BIOS-e820: 000000001ff80000 - 0000000020000000 (reserved)
+ BIOS-e820: 00000000ff800000 - 0000000100000000 (reserved)
+511MB LOWMEM available.
+On node 0 totalpages: 130912
+  DMA zone: 4096 pages, LIFO batch:0
+  Normal zone: 126816 pages, LIFO batch:31
+DMI present.
+ACPI: RSDP (v002 IBM                                   ) @ 0x000f6df0
+ACPI: XSDT (v001 IBM    TP-1R    0x00003130  LTP 0x00000000) @ 0x1ff6a6cd
+ACPI: FADT (v003 IBM    TP-1R    0x00003130 IBM  0x00000001) @ 0x1ff6a800
+ACPI: SSDT (v001 IBM    TP-1R    0x00003130 MSFT 0x0100000e) @ 0x1ff6a9b4
+ACPI: ECDT (v001 IBM    TP-1R    0x00003130 IBM  0x00000001) @ 0x1ff76ebc
+ACPI: TCPA (v001 IBM    TP-1R    0x00003130 PTL  0x00000001) @ 0x1ff76f0e
+ACPI: BOOT (v001 IBM    TP-1R    0x00003130  LTP 0x00000001) @ 0x1ff76fd8
+ACPI: DSDT (v001 IBM    TP-1R    0x00003130 MSFT 0x0100000e) @ 0x00000000
+ACPI: PM-Timer IO Port: 0x1008
+Allocating PCI resources starting at 30000000 (gap: 20000000:df800000)
+Built 1 zonelists
+Kernel command line: ro root=/dev/hda6 hdc=ide-scsi 3
+ide_setup: hdc=ide-scsi
+Local APIC disabled by BIOS -- you can enable it with "lapic"
+mapped APIC to ffffe000 (0140a000)
+Enabling fast FPU save and restore... done.
+Enabling unmasked SIMD FPU exception support... done.
+Initializing CPU#0
+PID hash table entries: 2048 (order: 11, 8192 bytes)
+Detected 600.289 MHz processor.
+Using pmtmr for high-res timesource
+Console: colour VGA+ 80x25
+Dentry cache hash table entries: 65536 (order: 6, 262144 bytes)
+Inode-cache hash table entries: 32768 (order: 5, 131072 bytes)
+Memory: 514420k/523648k available (2241k kernel code, 8196k reserved, 757k data, 228k init, 0k highmem, 0k BadRAM)
+Checking if this processor honours the WP bit even in supervisor mode... Ok.
+Calibrating delay using timer specific routine.. 1206.86 BogoMIPS (lpj=2413727)
+Mount-cache hash table entries: 512
+CPU: After generic identify, caps: afe9f9bf 00000000 00000000 00000000 00000180 00000000 00000000
+CPU: After vendor identify, caps: afe9f9bf 00000000 00000000 00000000 00000180 00000000 00000000
+CPU: L1 I cache: 32K, L1 D cache: 32K
+CPU: L2 cache: 2048K
+CPU: After all inits, caps: afe9f9bf 00000000 00000000 00000040 00000180 00000000 00000000
+Intel machine check architecture supported.
+Intel machine check reporting enabled on CPU#0.
+Checking 'hlt' instruction... OK.
+SMP alternatives: switching to UP code
+Freeing SMP alternatives: 16k freed
+ACPI: Looking for DSDT in initramfs... error, file /DSDT.aml not found.
+ACPI: setting ELCR to 0200 (from 0800)
+CPU0: Intel(R) Pentium(R) M processor 1.50GHz stepping 06
+SMP motherboard not detected.
+Local APIC not detected. Using dummy APIC emulation.
+Brought up 1 CPUs
+migration_cost=0
+NET: Registered protocol family 16
+ACPI: bus type pci registered
+PCI: PCI BIOS revision 2.10 entry at 0xfd8d6, last bus=8
+Setting up standard PCI resources
+ACPI: Subsystem revision 20060127
+ACPI: Found ECDT
+ACPI: Interpreter enabled
+ACPI: Using PIC for interrupt routing
+ACPI: PCI Interrupt Link [LNKA] (IRQs 3 4 5 6 7 9 10 *11)
+ACPI: PCI Interrupt Link [LNKB] (IRQs 3 4 5 6 7 9 10 *11)
+ACPI: PCI Interrupt Link [LNKC] (IRQs 3 4 5 6 7 9 10 *11)
+ACPI: PCI Interrupt Link [LNKD] (IRQs 3 4 5 6 7 9 10 *11)
+ACPI: PCI Interrupt Link [LNKE] (IRQs 3 4 5 6 7 9 10 11) *0, disabled.
+ACPI: PCI Interrupt Link [LNKF] (IRQs 3 4 5 6 7 9 10 11) *0, disabled.
+ACPI: PCI Interrupt Link [LNKG] (IRQs 3 4 5 6 7 9 10 11) *0, disabled.
+ACPI: PCI Interrupt Link [LNKH] (IRQs 3 4 5 6 7 9 10 *11)
+ACPI: PCI Root Bridge [PCI0] (0000:00)
+PCI: Probing PCI hardware (bus 00)
+PCI quirk: region 1000-107f claimed by ICH4 ACPI/GPIO/TCO
+PCI quirk: region 1180-11bf claimed by ICH4 GPIO
+PCI: Ignoring BAR0-3 of IDE controller 0000:00:1f.1
+Boot video device is 0000:01:00.0
+PCI: Transparent bridge - 0000:00:1e.0
+ACPI: PCI Interrupt Routing Table [\_SB_.PCI0._PRT]
+ACPI: Embedded Controller [EC] (gpe 28) interrupt mode.
+ACPI: Power Resource [PUBS] (on)
+ACPI: PCI Interrupt Routing Table [\_SB_.PCI0.AGP_._PRT]
+ACPI: PCI Interrupt Routing Table [\_SB_.PCI0.PCI1._PRT]
+Linux Plug and Play Support v0.97 (c) Adam Belay
+pnp: PnP ACPI init
+pnp: PnP ACPI: found 12 devices
+PnPBIOS: Disabled
+PCI: Using ACPI for IRQ routing
+PCI: If a device doesn't work, try "pci=routeirq".  If it helps, post a report
+PCI: Bridge: 0000:00:01.0
+  IO window: 3000-3fff
+  MEM window: c0100000-c01fffff
+  PREFETCH window: e0000000-e7ffffff
+PCI: Bus 3, cardbus bridge: 0000:02:00.0
+  IO window: 00004000-000040ff
+  IO window: 00004400-000044ff
+  PREFETCH window: e8000000-e9ffffff
+  MEM window: c2000000-c3ffffff
+PCI: Bus 7, cardbus bridge: 0000:02:00.1
+  IO window: 00004800-000048ff
+  IO window: 00004c00-00004cff
+  PREFETCH window: ea000000-ebffffff
+  MEM window: c4000000-c5ffffff
+PCI: Bridge: 0000:00:1e.0
+  IO window: 4000-8fff
+  MEM window: c0200000-cfffffff
+  PREFETCH window: e8000000-efffffff
+PCI: Setting latency timer of device 0000:00:1e.0 to 64
+ACPI: PCI Interrupt Link [LNKA] enabled at IRQ 11
+PCI: setting IRQ 11 as level-triggered
+ACPI: PCI Interrupt 0000:02:00.0[A] -> Link [LNKA] -> GSI 11 (level, low) -> IRQ 11
+ACPI: PCI Interrupt Link [LNKB] enabled at IRQ 11
+ACPI: PCI Interrupt 0000:02:00.1[B] -> Link [LNKB] -> GSI 11 (level, low) -> IRQ 11
+NET: Registered protocol family 2
+IP route cache hash table entries: 4096 (order: 2, 16384 bytes)
+TCP established hash table entries: 16384 (order: 5, 131072 bytes)
+TCP bind hash table entries: 8192 (order: 4, 65536 bytes)
+TCP: Hash tables configured (established 16384 bind 8192)
+TCP reno registered
+Simple Boot Flag at 0x35 set to 0x1
+IBM machine detected. Enabling interrupts during APM calls.
+apm: BIOS version 1.2 Flags 0x03 (Driver version 1.16ac)
+apm: overridden by ACPI.
+audit: initializing netlink socket (disabled)
+audit(1420195034.296:1): initialized
+Total HugeTLB memory allocated, 0
+VFS: Disk quotas dquot_6.5.1
+Dquot-cache hash table entries: 1024 (order 0, 4096 bytes)
+Initializing Cryptographic API
+io scheduler noop registered
+io scheduler anticipatory registered (default)
+io scheduler deadline registered
+io scheduler cfq registered
+isapnp: Scanning for PnP cards...
+isapnp: No Plug & Play device found
+Real Time Clock Driver v1.12ac
+Serial: 8250/16550 driver $Revision: 1.90 $ 4 ports, IRQ sharing enabled
+pnp: Device 00:09 activated.
+00:09: ttyS0 at I/O 0x3f8 (irq = 4) is a NS16550A
+ACPI: PCI Interrupt 0000:00:1f.6[B] -> Link [LNKB] -> GSI 11 (level, low) -> IRQ 11
+ACPI: PCI interrupt for device 0000:00:1f.6 disabled
+RAMDISK driver initialized: 16 RAM disks of 32000K size 1024 blocksize
+Uniform Multi-Platform E-IDE driver Revision: 7.00alpha2
+ide: Assuming 33MHz system bus speed for PIO modes; override with idebus=xx
+ICH4: IDE controller at PCI slot 0000:00:1f.1
+PCI: Enabling device 0000:00:1f.1 (0005 -> 0007)
+ACPI: PCI Interrupt Link [LNKC] enabled at IRQ 11
+ACPI: PCI Interrupt 0000:00:1f.1[A] -> Link [LNKC] -> GSI 11 (level, low) -> IRQ 11
+ICH4: chipset revision 1
+ICH4: not 100% native mode: will probe irqs later
+    ide0: BM-DMA at 0x1860-0x1867, BIOS settings: hda:DMA, hdb:pio
+    ide1: BM-DMA at 0x1868-0x186f, BIOS settings: hdc:DMA, hdd:pio
+Probing IDE interface ide0...
+hda: WDC WD400UE-22HCT0, ATA DISK drive
+ide0 at 0x1f0-0x1f7,0x3f6 on irq 14
+Probing IDE interface ide1...
+hdc: UJDA755yDVD/CDRW, ATAPI CD/DVD-ROM drive
+ide1 at 0x170-0x177,0x376 on irq 15
+hda: max request size: 128KiB
+hda: 78140160 sectors (40007 MB) w/2048KiB Cache, CHS=65535/16/63, UDMA(100)
+hda: cache flushes supported
+ hda: hda1 hda2 < hda5 hda6 hda7 >
+PNP: PS/2 Controller [PNP0303:KBD,PNP0f13:MOU] at 0x60,0x64 irq 1,12
+serio: i8042 AUX port at 0x60,0x64 irq 12
+serio: i8042 KBD port at 0x60,0x64 irq 1
+mice: PS/2 mouse device common for all mice
+md: md driver 0.90.3 MAX_MD_DEVS=256, MD_SB_DISKS=27
+md: bitmap version 4.39
+TCP bic registered
+NET: Registered protocol family 1
+Using IPI No-Shortcut mode
+ACPI wakeup devices: 
+ LID SLPB PCI0 UART PCI1 USB0 USB1 AC9M 
+ACPI: (supports S0 S3 S4 S5)
+BIOS EDD facility v0.16 2004-Jun-25, 1 devices found
+md: Autodetecting RAID arrays.
+md: autorun ...
+md: ... autorun DONE.
+input: AT Translated Set 2 keyboard as /class/input/input0
+EXT2-fs warning (device hda6): ext2_fill_super: mounting ext3 filesystem as ext2
+VFS: Mounted root (ext2 filesystem) readonly.
+Freeing unused kernel memory: 228k freed
+Synaptics Touchpad, model: 1, fw: 5.9, id: 0x2c6ab1, caps: 0x884793/0x0
+serio: Synaptics pass-through port at isa0060/serio1/input0
+input: SynPS/2 Synaptics TouchPad as /class/input/input1
+IBM TrackPoint firmware: 0x0e, buttons: 3/3
+input: TPPS/2 IBM TrackPoint as /class/input/input2
+process `named' is using obsolete setsockopt SO_BSDCOMPAT
