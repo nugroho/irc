@@ -1,0 +1,9 @@
+#
+# /dev/wd0a / ffs rw 1 1
+rc_configured=YES
+no_swap=YES
+cron=NO
+postfix=NO
+sshd=YES
+powerd=NO
+savecore=NO
