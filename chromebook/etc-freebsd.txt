@@ -1,0 +1,4 @@
+hostname=freebsd-13.hp.chromebook
+sshd_enable=YES
+synchronous_dhclient=YES
+ifconfig_em0="DHCP"
