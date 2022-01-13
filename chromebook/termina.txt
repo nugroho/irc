@@ -1,0 +1,10 @@
+1. Google Chrome
+2. CTRL + ALT + t
+3. vmc start termina
+4. vsh termina
+5. lxc start penguin
+6. lxc console penguin
+** lxc exec penguin -- sh -c "passwd root"
+** ifconfig eth0  100.115.92.194
+** route add default gw 100.115.92.26
+** apt install isc-dhcp-client
