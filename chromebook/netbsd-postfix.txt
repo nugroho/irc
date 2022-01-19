@@ -1,0 +1,25 @@
+# pkg_add ca-certificates
+
+# edit /etc/postfix/main.cf
+
+myhostname = netbsd-9-2.hp.chromebook
+inet_protocols = ipv4
+mynetworks = 10.0.2.0/28, 127.0.0.0/8
+relayhost = [smtp.gmail.com]:587
+smtp_sasl_auth_enable = yes
+smtp_sasl_security_options = noanonymous
+smtp_sasl_password_maps = hash:/etc/postfix/sasl_passwd
+smtp_tls_security_level = encrypt
+smtp_tls_CAfile = /etc/openssl/certs/ca-certificates.crt
+smtp_use_tls = yes
+
+# edit /etc/postfix/sasl_passwd
+# goto google chrome open https://myaccount.google.com/apppasswords
+# copy 16 characters
+
+[smtp.gmail.com]:587 username@gmail.com:apppasswords
+
+# postmap /etc/postfix/sasl_passwd
+
+# try send email
+# mail username@gmail.com
