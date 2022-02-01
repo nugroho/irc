@@ -15,3 +15,4 @@
   Google Chrome: 96.0.4664.111 (64 bits)
   Google Chrome: 97.0.4692.77  (64 bits)
   Google Chrome: 97.0.4692.91  (64 bits)
+  Google Chrome: 97.0.4692.102  (64 bits)
