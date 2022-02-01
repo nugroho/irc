@@ -6,6 +6,7 @@
   Google Chrome: 96.0.4664.45
   Google Chrome: 96.0.4664.92
   Google Chrome: 96.0.4664.104
+  Google Chrome: 97.0.4692.98
 
 * HP chromebook 11G8
   Google Chrome: 94.0.4606.104 (64 bits)
