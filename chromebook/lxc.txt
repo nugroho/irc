@@ -1,0 +1,10 @@
+#!/bin/sh
+#
+# google chrome CTRL + ALT + t
+# vsh termina
+#
+# lxc config device add penguin tun unix-char   path=/dev/net/tun
+#
+
+lxc config device add penguin sda  unix-block source=/dev/sda
+lxc config device add penguin sda1 unix-block source=/dev/sda1
