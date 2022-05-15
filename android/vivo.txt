@@ -33,3 +33,7 @@
 * Linux localhost 4.19.188-g49252c59e68d-dirty #1
   SMP PREEMPT
   Wed Mar 16 19:41:28 CST 2022 aarch64 Android
+
+* Linux localhost 4.19.191-g845a73a60432-dirty #1
+  SMP PREEMPT
+  Thu May  5 16:49:38 CST 2022 aarch64 Android
