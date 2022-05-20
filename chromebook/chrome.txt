@@ -1,6 +1,9 @@
 * Meizu M5 Note
   Google Chrome: 77.0.3865.92
 
+* HOTWAV Symbol
+  Google Chrome:101.0.4951.41  Android 10; HOTWAV Symbol R60 Build/QP1A.190711.020
+
 * LENOVO Ideapad S206
   Google Chrome:100.0.4896.127 (64 bits) Windows 7 Service Pack 1 (Build 7601.24312)
 
