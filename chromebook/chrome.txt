@@ -1,6 +1,9 @@
 * Meizu M5 Note
   Google Chrome: 77.0.3865.92
 
+* REALME 
+  Google Chrome:101.0.4951.61  Android  9; RMX1941 Build/PPR1.180610.011
+
 * HOTWAV Symbol
   Google Chrome:101.0.4951.41  Android 10; HOTWAV Symbol R60 Build/QP1A.190711.020
 
