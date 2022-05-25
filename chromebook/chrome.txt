@@ -4,6 +4,9 @@
 * REALME 
   Google Chrome:101.0.4951.61  Android  9; RMX1941 Build/PPR1.180610.011
 
+* REALME C31
+  Google Chrome:101.0.4951.61  Android 11; RMX3501 Build/RP1A.201005.001
+
 * HOTWAV Symbol
   Google Chrome:101.0.4951.41  Android 10; HOTWAV Symbol R60 Build/QP1A.190711.020
 
