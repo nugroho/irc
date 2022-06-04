@@ -7,6 +7,9 @@
 * REALME C31
   Google Chrome:101.0.4951.61  Android 11; RMX3501 Build/RP1A.201005.001
 
+* ADVAN
+  Google Chrome:100.0.4896.127 Android  7; i5D Build/NRD90M
+
 * HOTWAV Symbol
   Google Chrome:101.0.4951.41  Android 10; HOTWAV Symbol R60 Build/QP1A.190711.020
 
