@@ -32,6 +32,7 @@
   Google Chrome: 99.0.4844.73
   Google Chrome:100.0.4896.79
   Google Chrome:101.0.4951.61
+  Google Chrome:102.0.5005.78
 
 * HP chromebook 11G8
   Google Chrome: 94.0.4606.104 (64 bits)
