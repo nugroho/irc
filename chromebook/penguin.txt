@@ -69,3 +69,7 @@
 * Linux penguin 5.10.110-15808-ge5740beba59b #1 
   SMP PREEMPT 
   Tue May 24 10:50:29 PDT 2022 x86_64 GNU/Linux
+
+* Linux penguin 5.10.114-16024-gbdf1547bd4f4 #1 
+  SMP PREEMPT 
+  Wed Jun 22 19:04:26 PDT 2022 x86_64 GNU/Linux
