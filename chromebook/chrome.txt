@@ -72,3 +72,4 @@
   Google Chrome:108.0.5359.75  (64 bits)
   Google Chrome:108.0.5359.111 (64 bits)
   Google Chrome:108.0.5359.172 (64 bits)
+  Google Chrome:109.0.5414.125 (64 bits)
