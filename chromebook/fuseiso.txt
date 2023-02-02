@@ -2,3 +2,4 @@
 2. apt install fuseiso
 3. mkdir -v iso
 4. fuseiso file.iso iso
+5. fusermount -u iso
