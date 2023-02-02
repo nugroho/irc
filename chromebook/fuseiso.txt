@@ -1,0 +1,4 @@
+1. sudo su root
+2. apt install fuseiso
+3. mkdir -v iso
+4. fuseiso file.iso iso
