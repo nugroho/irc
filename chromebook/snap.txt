@@ -1,0 +1,4 @@
+1. sudo su root
+2. apt install snap
+3. apt install snapd
+4. apt install squashfuse
