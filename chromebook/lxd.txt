@@ -1,0 +1,3 @@
+1. sudo su root
+2. snap install core
+3. snap install lxd
