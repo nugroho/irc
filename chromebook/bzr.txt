@@ -1,0 +1,5 @@
+1. sudo su root
+2. apt install bzr
+3. bzr branch lp:nfcl
+4. bzr whoami email
+5. bzr launchpad-login username
