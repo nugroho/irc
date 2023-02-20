@@ -2,3 +2,13 @@
 2. apt install snap
 3. apt install snapd
 4. apt install squashfuse
+===================
+a. apt remove snapd
+b. apt remove snap
+c. umount snap
+d. umount /run/snapd/ns/lxd.mnt
+e. umount /run/snapd/ns
+f. rm -rvf /snap
+g. rm -rvf /var/snap
+h. umount /dev/lxd
+i. umount /dev/.lxd-mounts
