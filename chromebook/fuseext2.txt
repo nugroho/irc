@@ -1,0 +1,5 @@
+1. sudo su root
+2. apt install fuseext2
+3. mkdir -v ext2
+4. fuseext2 image.ext2 ext2
+5. fusermount -u ext2
