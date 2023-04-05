@@ -1,0 +1,2 @@
+# ogg123
+apt install vorbis-tools
