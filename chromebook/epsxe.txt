@@ -1,0 +1,5 @@
+apt install libsdl-ttf2.0-0
+apt install libtinfo5
+apt install libncurses5
+... openssl 1.0.0
+... libcurl
