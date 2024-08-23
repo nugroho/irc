@@ -1,0 +1,310 @@
+Copyright (c) 1996, 1997, 1998, 1999, 2000, 2001, 2002, 2003,
+    2004, 2005, 2006, 2007, 2008, 2009, 2010, 2011, 2012, 2013,
+    2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023,
+    2024
+    The NetBSD Foundation, Inc.  All rights reserved.
+Copyright (c) 1982, 1986, 1989, 1991, 1993
+    The Regents of the University of California.  All rights reserved.
+
+NetBSD 10.0 (GENERIC) #0: Thu Mar 28 08:33:33 UTC 2024
+	mkrepro@mkrepro.NetBSD.org:/usr/src/sys/arch/amd64/compile/GENERIC
+total memory = 2038 MB
+avail memory = 1944 MB
+timecounter: Timecounters tick every 10.000 msec
+Kernelized RAIDframe activated
+wd* disabled
+timecounter: Timecounter "i8254" frequency 1193182 Hz quality 100
+mainbus0 (root)
+ACPI: RSDP 0x00000000000F6EC0 000014 (v00 LENOVO)
+ACPI: RSDT 0x000000007F688777 00003C (v01 LENOVO TC-2O    00000047  LTP 00000000)
+ACPI: FACP 0x000000007F68FE8E 000074 (v01 LENOVO TC-2O    00000047 PTL  00000003)
+ACPI: DSDT 0x000000007F68A027 005E67 (v01 INTEL  BR_2OTER 00000047 MSFT 0100000E)
+ACPI: FACS 0x000000007F692FC0 000040
+ACPI: TCPA 0x000000007F68FF02 000032 (v02 LENOVO THI2OCEN 00000047 PTL  00000001)
+ACPI: MCFG 0x000000007F68FF34 00003C (v01 PTLTD    M2OG   00000047  LTP 00000000)
+ACPI: APIC 0x000000007F68FF70 000068 (v01 PTLTD  ? A2OC   00000047  LTP 00000000)
+ACPI: BOOT 0x000000007F68FFD8 000028 (v01 PTLTD  $SB2OBL$ 00000047  LTP 00000001)
+ACPI: SSDT 0x000000007F6887B3 0013EC (v01 PmRef  CpuPm    00003000 INTL 20050228)
+ACPI: 2 ACPI AML tables successfully acquired and loaded
+ioapic0 at mainbus0 apid 2: pa 0xfec00000, version 0x20, 24 pins
+cpu0 at mainbus0 apid 0
+cpu0: Use lfence to serialize rdtsc
+cpu0: Intel(R) Pentium(R) Dual  CPU  E2200  @ 2.20GHz, id 0x6fd
+cpu0: node 0, package 0, core 0, smt 0
+cpu1 at mainbus0 apid 1
+cpu1: Intel(R) Pentium(R) Dual  CPU  E2200  @ 2.20GHz, id 0x6fd
+cpu1: node 0, package 0, core 1, smt 0
+acpi0 at mainbus0: Intel ACPICA 20221020
+acpi0: X/RSDT: OemId <LENOVO,TC-2O   ,00000047>, AslId < LTP,00000000>
+acpi0: MCFG: segment 0, bus 0-9, address 0x00000000e0000000
+ACPI: Dynamic OEM Table Load:
+ACPI: SSDT 0xFFFF81501F4AB208 0001BE (v01 PmRef  Cpu0Ist  00003000 INTL 20050228)
+ACPI: Dynamic OEM Table Load:
+ACPI: SSDT 0xFFFF814FE4803B48 000066 (v01 PmRef  Cpu1Ist  00003000 INTL 20050228)
+acpi0: SCI interrupting at int 9
+acpi0: fixed power button present
+timecounter: Timecounter "ACPI-Fast" frequency 3579545 Hz quality 1000
+pcppi1 at acpi0 (SPKR, PNP0800): io 0x61
+spkr0 at pcppi1: PC Speaker
+wsbell at spkr0 not configured
+midi0 at pcppi1: PC speaker
+sysbeep0 at pcppi1
+attimer1 at acpi0 (TIMR, PNP0100): io 0x40-0x43,0x50-0x53 irq 0
+FWH (INT0800) at acpi0 not configured
+com0 at acpi0 (COMA, PNP0501-1): io 0x3f8-0x3ff irq 4
+com0: ns16550a, 16-byte FIFO
+lpt0 at acpi0 (LPT, PNP0401): io 0x378,0x778 irq 7 drq 3
+fdc0 at acpi0 (FDC, PNP0700-1): io 0x3f0-0x3f5,0x3f7 irq 6 drq 2
+fdc0: failed to evaluate _FDE: AE_NOT_FOUND
+acpibut0 at acpi0 (PWRB, PNP0C0C): ACPI Power Button
+ACPI: Enabled 2 GPEs in block 00 to 1F
+attimer1: attached to pcppi1
+pci0 at mainbus0 bus 0: configuration mode 1
+pci0: i/o space, memory space enabled, rd/line, rd/mult, wr/inv ok
+pchb0 at pci0 dev 0 function 0: Intel 82946GZ Host Bridge (rev. 0x02)
+agp0 at pchb0: i965-family chipset
+agp0: detected 7676k stolen memory
+agp0: aperture at 0xc0000000, size 0x20000000
+ppb0 at pci0 dev 1 function 0: Intel product 2971 (rev. 0x02)
+ppb0: PCI Express capability version 1 <Root Port of PCI-E Root Complex> x16 @ 2.5GT/s
+pci1 at ppb0 bus 1
+pci1: i/o space, memory space enabled, rd/line, wr/inv ok
+i915drmkms0 at pci0 dev 2 function 0: Intel 82946GZ Integrated Graphics Device (rev. 0x02)
+hdaudio0 at pci0 dev 27 function 0: HD Audio Controller
+hdaudio0: interrupting at msi0 vec 0
+hdaudio0: HDA ver. 1.0, OSS 4, ISS 4, BSS 0, SDO 1, 64-bit
+hdafg0 at hdaudio0: Analog Device AD1986A
+hdafg0: autoconfiguration error: WARNING: zero cnid
+hdafg0: DAC00 6ch: Speaker [Jack], HP Out [Jack]
+hdafg0: ADC01 2ch: CD [Built-In], Mic In [Jack]
+hdafg0: 6ch/2ch 8000Hz 11025Hz 16000Hz 22050Hz 32000Hz 44100Hz 48000Hz PCM16 PCM20 PCM24 AC3
+audio0 at hdafg0: playback, capture, full duplex, independent
+audio0: slinear_le:16 2ch 48000Hz, blk 1920 bytes (10ms) for playback
+audio0: slinear_le:16 2ch 48000Hz, blk 1920 bytes (10ms) for recording
+spkr1 at audio0: PC Speaker (synthesized)
+wsbell at spkr1 not configured
+ppb1 at pci0 dev 28 function 0: Intel 82801GB/GR PCI Express Port #1 (rev. 0x01)
+ppb1: PCI Express capability version 1 <Root Port of PCI-E Root Complex> x1 @ 2.5GT/s
+pci2 at ppb1 bus 2
+pci2: i/o space, memory space enabled, rd/line, wr/inv ok
+ppb2 at pci0 dev 28 function 1: Intel 82801GB/GR PCI Express Port #2 (rev. 0x01)
+ppb2: PCI Express capability version 1 <Root Port of PCI-E Root Complex> x1 @ 2.5GT/s
+pci3 at ppb2 bus 4
+pci3: i/o space, memory space enabled, rd/line, wr/inv ok
+bge0 at pci3 dev 0 function 0: Broadcom BCM5786 Gigabit Ethernet
+bge0: interrupting at msi1 vec 0
+bge0: HW config 00000155, 00000015, 00000030, 00000000 00000000
+bge0: ASIC BCM5754/5787 A2 (0xb002), Ethernet address 00:1c:25:c5:f6:37
+bge0: setting short Tx thresholds
+brgphy0 at bge0 phy 1: BCM5754/5787 1000BASE-T media interface, rev. 0
+brgphy0: 10baseT, 10baseT-FDX, 100baseTX, 100baseTX-FDX, 1000baseT, 1000baseT-FDX, auto
+uhci0 at pci0 dev 29 function 0: Intel 82801GB/GR USB UHCI Controller (rev. 0x01)
+uhci0: interrupting at ioapic0 pin 23
+usb0 at uhci0: USB revision 1.0
+uhci1 at pci0 dev 29 function 1: Intel 82801GB/GR USB UHCI Controller (rev. 0x01)
+uhci1: interrupting at ioapic0 pin 19
+usb1 at uhci1: USB revision 1.0
+uhci2 at pci0 dev 29 function 2: Intel 82801GB/GR USB UHCI Controller (rev. 0x01)
+uhci2: interrupting at ioapic0 pin 18
+usb2 at uhci2: USB revision 1.0
+uhci3 at pci0 dev 29 function 3: Intel 82801GB/GR USB UHCI Controller (rev. 0x01)
+uhci3: interrupting at ioapic0 pin 16
+usb3 at uhci3: USB revision 1.0
+ehci0 at pci0 dev 29 function 7: Intel 82801GB/GR USB EHCI Controller (rev. 0x01)
+ehci0: 64-bit DMA
+ehci0: interrupting at ioapic0 pin 23
+ehci0: EHCI version 1.0
+ehci0: 4 companion controllers, 2 ports each: uhci0 uhci1 uhci2 uhci3
+ehci0: Using DMA subregion for control data structures
+usb4 at ehci0: USB revision 2.0
+ppb3 at pci0 dev 30 function 0: Intel 82801BA Hub-PCI Bridge (rev. 0xe1)
+pci4 at ppb3 bus 10
+pci4: i/o space, memory space enabled
+ichlpcib0 at pci0 dev 31 function 0: Intel 82801GB/GR LPC Interface Bridge (rev. 0x01)
+timecounter: Timecounter "ichlpcib0" frequency 3579545 Hz quality 1000
+ichlpcib0: 24-bit timer
+tco0 at ichlpcib0: TCO (watchdog) timer configured.
+tco0: Min/Max interval 1/367 seconds
+piixide0 at pci0 dev 31 function 2: Intel 82801GB/GR Serial ATA/Raid Controller (ICH7) (rev. 0x01)
+piixide0: bus-master DMA support present
+piixide0: primary channel configured to native-PCI mode
+piixide0: using ioapic0 pin 19 for native-PCI interrupt
+atabus0 at piixide0 channel 0
+piixide0: secondary channel configured to native-PCI mode
+atabus1 at piixide0 channel 1
+ichsmb0 at pci0 dev 31 function 3: Intel 82801GB/GR SMBus Controller (rev. 0x01)
+ichsmb0: interrupting at ioapic0 pin 19
+iic0 at ichsmb0: I2C bus
+isa0 at ichlpcib0
+pckbc0 at isa0 port 0x60-0x64
+pckbd0 at pckbc0 (kbd slot)
+pckbc0: using irq 1 for kbd slot
+wskbd0 at pckbd0: console keyboard
+acpicpu0 at cpu0: ACPI CPU
+acpicpu0: C1: HLT, lat   0 us, pow     0 mW
+acpicpu0: P0: FFH, lat  10 us, pow 31000 mW, 1100 MHz
+acpicpu0: P1: FFH, lat  10 us, pow 20000 mW,  800 MHz
+acpicpu0: P2: FFH, lat  10 us, pow 13000 mW,  600 MHz
+coretemp0 at cpu0: thermal sensor, 1 C resolutioncoretemp0: autoconfiguration error: WARNING: Tjmax(0) might exceeded the limit.
+, Tjmax=0
+acpicpu1 at cpu1: ACPI CPU
+coretemp1 at cpu1: thermal sensor, 1 C resolutioncoretemp1: autoconfiguration error: WARNING: Tjmax(0) might exceeded the limit.
+, Tjmax=0
+timecounter: Timecounter "clockinterrupt" frequency 100 Hz quality 0
+fd0 at fdc0 drive 0: density unknown
+fd1 at fdc0 drive 1: density unknown
+IPsec: Initialized Security Association Processing.
+uhub0 at usb0: NetBSD (0x0000) UHCI root hub (0x0000), class 9/0, rev 1.00/1.00, addr 1
+uhub0: 2 ports with 2 removable, self powered
+uhub1 at usb1: NetBSD (0x0000) UHCI root hub (0x0000), class 9/0, rev 1.00/1.00, addr 1
+uhub1: 2 ports with 2 removable, self powered
+uhub2 at usb2: NetBSD (0x0000) UHCI root hub (0x0000), class 9/0, rev 1.00/1.00, addr 1
+uhub2: 2 ports with 2 removable, self powered
+uhub3 at usb3: NetBSD (0x0000) UHCI root hub (0x0000), class 9/0, rev 1.00/1.00, addr 1
+uhub3: 2 ports with 2 removable, self powered
+uhub4 at usb4: NetBSD (0x0000) EHCI root hub (0x0000), class 9/0, rev 2.00/1.00, addr 1
+uhub4: 8 ports with 8 removable, self powered
+umass0 at uhub4 port 6 configuration 1 interface 0
+umass0: USB (0x346d) Disk 2.0 (0x5678), rev 2.00/2.00, addr 2
+umass0: using SCSI over Bulk-Only
+scsibus0 at umass0: 2 targets, 1 lun per target
+uhidev0 at uhub0 port 2 configuration 1 interface 0
+uhidev0: YSPRINGTECH (0x10c4) USB OPTICAL MOUSE (0x8108), rev 2.00/0.00, addr 2, iclass 3/1
+sd0 at scsibus0 target 0 lun 0: <VendorCo, ProductCode, 2.00> disk removable
+sd0: fabricating a geometry
+sd0: 30000 MB, 30000 cyl, 64 head, 32 sec, 512 bytes/sect x 61440000 sectors
+sd0: fabricating a geometry
+ums0 at uhidev0: 3 buttons and Z dir
+wsmouse0 at ums0 mux 0
+uhidev1 at uhub2 port 1 configuration 1 interface 0
+uhidev1: SEMICO (0x1a2c) USB Keyboard (0x6004), rev 1.10/1.10, addr 2, iclass 3/1
+ukbd0 at uhidev1
+wskbd1 at ukbd0 mux 1
+uhidev2 at uhub2 port 1 configuration 1 interface 1
+uhidev2: SEMICO (0x1a2c) USB Keyboard (0x6004), rev 1.10/1.10, addr 2, iclass 3/1
+uhidev2: 2 report ids
+uhid0 at uhidev2 reportid 1: input=2, output=0, feature=0
+uhid1 at uhidev2 reportid 2: input=1, output=0, feature=0
+atapibus0 at atabus0: 2 targets
+cd0 at atapibus0 drive 0: <HL-DT-STDVD-ROM GDRH20N, , 0M02> cdrom removable
+cd0: 32-bit data port
+cd0: drive supports PIO mode 4, DMA mode 2, Ultra-DMA mode 5 (Ultra/100)
+cd0(piixide0:0:0): using PIO mode 4, Ultra-DMA mode 5 (Ultra/100) (using DMA)
+wd at atabus1 drive 0 not configured
+swwdog0: software watchdog initialized
+WARNING: 3 errors while detecting hardware; check system log.
+boot device: sd0
+root on sd0c dumps on sd0b
+root file system type: ffs
+kern.module.path=/stand/amd64/10.0/modules
+[drm] Supports vblank timestamp caching Rev 2 (21.10.2013).
+[drm] Driver supports precise vblank timestamp query.
+i915drmkms0: interrupting at ioapic0 pin 16 (i915drmkms0)
+wskbd1: detached
+ukbd0: detached
+uhidev1: detached
+uhidev1: at uhub2 port 1 (addr 2) disconnected
+uhid1: detached
+uhid0: detached
+uhidev2: detached
+uhidev2: at uhub2 port 1 (addr 2) disconnected
+uhidev1 at uhub2 port 1 configuration 1 interface 0
+uhidev1: SEMICO (0x1a2c) USB Keyboard (0x6004), rev 1.10/1.10, addr 2, iclass 3/1
+ukbd0 at uhidev1
+wskbd1 at ukbd0 mux 1
+uhidev2 at uhub2 port 1 configuration 1 interface 1
+uhidev2: SEMICO (0x1a2c) USB Keyboard (0x6004), rev 1.10/1.10, addr 2, iclass 3/1
+uhidev2: 2 report ids
+uhid0 at uhidev2 reportid 1: input=2, output=0, feature=0
+uhid1 at uhidev2 reportid 2: input=1, output=0, feature=0
+{drm:netbsd:drm_atomic_helper_wait_for_flip_done+0x18d} *ERROR* [CRTC:39:pipe A] flip_done timed out
+[drm] Initialized overlay support.
+[drm] Initialized i915 1.6.0 20200114 for i915drmkms0 on minor 0
+intelfb0 at i915drmkms0
+[drm] DRM_I915_DEBUG enabled
+[drm] DRM_I915_DEBUG_GEM enabled
+intelfb0: framebuffer at 0xc0020000, size 1024x768, depth 32, stride 4096
+wsdisplay0 at intelfb0 kbdmux 1: console (default, vt100 emulation), using wskbd0
+wsmux1: connecting to wsdisplay0
+wskbd1: connecting to wsdisplay0
+wskbd1: disconnecting from wsdisplay0
+wskbd1: detached
+ukbd0: detached
+uhidev1: detached
+uhidev1: at uhub2 port 1 (addr 2) disconnected
+uhid1: detached
+uhid0: detached
+uhidev2: detached
+uhidev2: at uhub2 port 1 (addr 2) disconnected
+uhidev1 at uhub2 port 1 configuration 1 interface 0
+uhidev1: ELAN Microelectronics (0x04f3) ActiveJet K-2024 Multimedia Keyboard (0x0103), rev 1.10/1.05, addr 2, iclass 3/1
+ukbd0 at uhidev1
+wskbd1 at ukbd0 mux 1
+wskbd1: connecting to wsdisplay0
+uhidev2 at uhub2 port 1 configuration 1 interface 1
+uhidev2: ELAN Microelectronics (0x04f3) ActiveJet K-2024 Multimedia Keyboard (0x0103), rev 1.10/1.05, addr 2, iclass 3/0
+uhidev2: 2 report ids
+uhid0 at uhidev2 reportid 1: input=2, output=0, feature=0
+uhid1 at uhidev2 reportid 2: input=1, output=0, feature=0
+wskbd1: disconnecting from wsdisplay0
+wskbd1: detached
+ukbd0: detached
+uhidev1: detached
+uhidev1: at uhub2 port 1 (addr 2) disconnected
+uhid1: detached
+uhid0: detached
+uhidev2: detached
+uhidev2: at uhub2 port 1 (addr 2) disconnected
+uhub2: autoconfiguration error: device problem, disabling port 1
+uhidev1 at uhub2 port 1 configuration 1 interface 0
+uhidev1: ELAN Microelectronics (0x04f3) ActiveJet K-2024 Multimedia Keyboard (0x0103), rev 1.10/1.05, addr 2, iclass 3/1
+ukbd0 at uhidev1
+wskbd1 at ukbd0 mux 1
+wskbd1: connecting to wsdisplay0
+uhidev2 at uhub2 port 1 configuration 1 interface 1
+uhidev2: ELAN Microelectronics (0x04f3) ActiveJet K-2024 Multimedia Keyboard (0x0103), rev 1.10/1.05, addr 2, iclass 3/0
+uhidev2: 2 report ids
+uhid0 at uhidev2 reportid 1: input=2, output=0, feature=0
+uhid1 at uhidev2 reportid 2: input=1, output=0, feature=0
+wskbd1: disconnecting from wsdisplay0
+wskbd1: detached
+ukbd0: detached
+uhidev1: detached
+uhidev1: at uhub2 port 1 (addr 2) disconnected
+uhid1: detached
+uhid0: detached
+uhidev2: detached
+uhidev2: at uhub2 port 1 (addr 2) disconnected
+uhidev1 at uhub2 port 1 configuration 1 interface 0
+uhidev1: ELAN Microelectronics (0x04f3) ActiveJet K-2024 Multimedia Keyboard (0x0103), rev 1.10/1.05, addr 2, iclass 3/1
+ukbd0 at uhidev1
+wskbd1 at ukbd0 mux 1
+wskbd1: connecting to wsdisplay0
+uhidev2 at uhub2 port 1 configuration 1 interface 1
+uhidev2: ELAN Microelectronics (0x04f3) ActiveJet K-2024 Multimedia Keyboard (0x0103), rev 1.10/1.05, addr 2, iclass 3/0
+uhidev2: 2 report ids
+uhid0 at uhidev2 reportid 1: input=2, output=0, feature=0
+uhid1 at uhidev2 reportid 2: input=1, output=0, feature=0
+wskbd1: disconnecting from wsdisplay0
+wskbd1: detached
+ukbd0: detached
+uhidev1: detached
+uhidev1: at uhub2 port 1 (addr 2) disconnected
+uhid1: detached
+uhid0: detached
+uhidev2: detached
+uhidev2: at uhub2 port 1 (addr 2) disconnected
+uhidev1 at uhub2 port 1 configuration 1 interface 0
+uhidev1: ELAN Microelectronics (0x04f3) ActiveJet K-2024 Multimedia Keyboard (0x0103), rev 1.10/1.05, addr 2, iclass 3/1
+ukbd0 at uhidev1
+wskbd1 at ukbd0 mux 1
+wskbd1: connecting to wsdisplay0
+uhidev2 at uhub2 port 1 configuration 1 interface 1
+uhidev2: ELAN Microelectronics (0x04f3) ActiveJet K-2024 Multimedia Keyboard (0x0103), rev 1.10/1.05, addr 2, iclass 3/0
+uhidev2: 2 report ids
+uhid0 at uhidev2 reportid 1: input=2, output=0, feature=0
+uhid1 at uhidev2 reportid 2: input=1, output=0, feature=0
+wsdisplay0: screen 1 added (default, vt100 emulation)
+wsdisplay0: screen 2 added (default, vt100 emulation)
+wsdisplay0: screen 3 added (default, vt100 emulation)
+wsdisplay0: screen 4 added (default, vt100 emulation)
