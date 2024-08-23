@@ -1,0 +1,120 @@
+OpenBSD 7.5 (GENERIC) #79: Wed Mar 20 15:33:49 MDT 2024
+    deraadt@amd64.openbsd.org:/usr/src/sys/arch/amd64/compile/GENERIC
+real mem = 2120744960 (2022MB)
+avail mem = 2035666944 (1941MB)
+random: good seed from bootblocks
+mpath0 at root
+scsibus0 at mpath0: 256 targets
+mainbus0 at root
+bios0 at mainbus0: SMBIOS rev. 2.4 @ 0xdc010 (36 entries)
+bios0: vendor LENOVO version "2OKT47AUS" date 01/17/2008
+bios0: LENOVO 96373FA
+acpi at bios0 not configured
+mpbios0 at bios0: Intel MP Specification 1.4
+cpu0 at mainbus0: apid 0 (boot processor)
+cpu0: Intel(R) Pentium(R) Dual CPU E2200 @ 2.20GHz, 2194.80 MHz, 06-0f-0d, patch 000000a1
+cpu0: FPU,VME,DE,PSE,TSC,MSR,PAE,MCE,CX8,APIC,SEP,MTRR,PGE,MCA,CMOV,PAT,PSE36,CFLUSH,DS,ACPI,MMX,FXSR,SSE,SSE2,SS,HTT,TM,PBE,SSE3,DTES64,MWAIT,DS-CPL,EST,TM2,SSSE3,CX16,xTPR,PDCM,NXE,LONG,LAHF,PERF,SENSOR,MELTDOWN
+cpu0: 32KB 64b/line 8-way D-cache, 32KB 64b/line 8-way I-cache, 1MB 64b/line 4-way L2 cache
+cpu0: smt 0, core 0, package 0
+mtrr: Pentium Pro MTRR support, 8 var ranges, 88 fixed ranges
+cpu0: apic clock running at 199MHz
+cpu0: mwait min=64, max=64, C-substates=0.2.2, IBE
+cpu at mainbus0: not configured
+mpbios0: bus 0 is type PCI   
+mpbios0: bus 4 is type PCI   
+mpbios0: bus 5 is type ISA   
+ioapic0 at mainbus0: apid 2 pa 0xfec00000, version 20, 24 pins
+pci0 at mainbus0 bus 0
+pchb0 at pci0 dev 0 function 0 "Intel 82946GZ Host" rev 0x02
+ppb0 at pci0 dev 1 function 0 "Intel 82946GZ PCIE" rev 0x02: apic 2 int 16
+pci1 at ppb0 bus 1
+inteldrm0 at pci0 dev 2 function 0 "Intel 82946GZ Video" rev 0x02
+drm0 at inteldrm0
+intagp0 at inteldrm0
+agp0 at intagp0: aperture at 0xc0000000, size 0x10000000
+inteldrm0: apic 2 int 16, I965G, gen 4
+azalia0 at pci0 dev 27 function 0 "Intel 82801GB HD Audio" rev 0x01: apic 2 int 22
+azalia0: codecs: Analog Devices/0x1986
+audio0 at azalia0
+ppb1 at pci0 dev 28 function 0 "Intel 82801GB PCIE" rev 0x01: apic 2 int 17
+pci2 at ppb1 bus 2
+ppb2 at pci0 dev 28 function 1 "Intel 82801GB PCIE" rev 0x01: apic 2 int 16
+pci3 at ppb2 bus 4
+bge0 at pci3 dev 0 function 0 "Broadcom BCM5786" rev 0x02, BCM5754/5787 A2 (0xb002): apic 2 int 17, address 00:1c:25:c5:f6:37
+brgphy0 at bge0 phy 1: BCM5787 10/100/1000baseT PHY, rev. 0
+uhci0 at pci0 dev 29 function 0 "Intel 82801GB USB" rev 0x01: apic 2 int 23
+uhci1 at pci0 dev 29 function 1 "Intel 82801GB USB" rev 0x01: apic 2 int 19
+uhci2 at pci0 dev 29 function 2 "Intel 82801GB USB" rev 0x01: apic 2 int 18
+uhci3 at pci0 dev 29 function 3 "Intel 82801GB USB" rev 0x01: apic 2 int 16
+ehci0 at pci0 dev 29 function 7 "Intel 82801GB USB" rev 0x01: apic 2 int 23
+ehci0: timed out waiting for BIOS
+usb0 at ehci0: USB revision 2.0
+uhub0 at usb0 configuration 1 interface 0 "Intel EHCI root hub" rev 2.00/1.00 addr 1
+ppb3 at pci0 dev 30 function 0 "Intel 82801BA Hub-to-PCI" rev 0xe1
+pci4 at ppb3 bus 10
+pcib0 at pci0 dev 31 function 0 "Intel 82801GB LPC" rev 0x01
+pciide0 at pci0 dev 31 function 2 "Intel 82801GB SATA" rev 0x01: DMA, channel 0 configured to native-PCI, channel 1 configured to native-PCI
+pciide0: using apic 2 int 19 for native-PCI interrupt
+atapiscsi0 at pciide0 channel 0 drive 0
+scsibus1 at atapiscsi0: 2 targets
+cd0 at scsibus1 targ 0 lun 0: <HL-DT-ST, DVD-ROM GDRH20N, 0M02> removable
+cd0(pciide0:0:0): using PIO mode 4, Ultra-DMA mode 5
+drive at pciide0 channel 1 drive 0 not configured
+ichiic0 at pci0 dev 31 function 3 "Intel 82801GB SMBus" rev 0x01: apic 2 int 19
+iic0 at ichiic0
+spdmem0 at iic0 addr 0x50: 1GB DDR2 SDRAM non-parity PC2-5300CL5
+spdmem1 at iic0 addr 0x52: 1GB DDR2 SDRAM non-parity PC2-5300CL5
+usb1 at uhci0: USB revision 1.0
+uhub1 at usb1 configuration 1 interface 0 "Intel UHCI root hub" rev 1.00/1.00 addr 1
+usb2 at uhci1: USB revision 1.0
+uhub2 at usb2 configuration 1 interface 0 "Intel UHCI root hub" rev 1.00/1.00 addr 1
+usb3 at uhci2: USB revision 1.0
+uhub3 at usb3 configuration 1 interface 0 "Intel UHCI root hub" rev 1.00/1.00 addr 1
+usb4 at uhci3: USB revision 1.0
+uhub4 at usb4 configuration 1 interface 0 "Intel UHCI root hub" rev 1.00/1.00 addr 1
+isa0 at pcib0
+isadma0 at isa0
+fdc0 at isa0 port 0x3f0/6 irq 6 drq 2
+com0 at isa0 port 0x3f8/8 irq 4: ns16550a, 16 byte fifo
+pckbc0 at isa0 port 0x60/5 irq 1 irq 12
+pckbd0 at pckbc0 (kbd slot)
+wskbd0 at pckbd0: console keyboard
+pcppi0 at isa0 port 0x61
+spkr0 at pcppi0
+lpt0 at isa0 port 0x378/4 irq 7
+it0 at isa0 port 0x2e/2: IT8718F rev 2, EC port 0x290
+umass0 at uhub0 port 6 configuration 1 interface 0 "USB Disk 2.0" rev 2.00/2.00 addr 2
+umass0: using SCSI over Bulk-Only
+scsibus2 at umass0: 2 targets, initiator 0
+sd0 at scsibus2 targ 1 lun 0: <VendorCo, ProductCode, 2.00> removable serial.346d5678295190722650
+sd0: 30000MB, 512 bytes/sector, 61440000 sectors
+sd0 has legacy label, please rewrite using disklabel(8)
+uhidev0 at uhub1 port 2 configuration 1 interface 0 "YSPRINGTECH USB OPTICAL MOUSE" rev 2.00/0.00 addr 2
+uhidev0: iclass 3/1
+ums0 at uhidev0: 3 buttons, Z dir
+wsmouse0 at ums0 mux 0
+uhidev1 at uhub3 port 1 configuration 1 interface 0 "SEMICO USB Keyboard" rev 1.10/1.10 addr 2
+uhidev1: iclass 3/1
+ukbd0 at uhidev1: 8 variable keys, 6 key codes
+wskbd1 at ukbd0 mux 1
+uhidev2 at uhub3 port 1 configuration 1 interface 1 "SEMICO USB Keyboard" rev 1.10/1.10 addr 2
+uhidev2: iclass 3/1, 2 report ids
+ucc0 at uhidev2 reportid 1: 573 usages, 20 keys, array
+wskbd2 at ucc0 mux 1
+uhid0 at uhidev2 reportid 2: input=1, output=0, feature=0
+vscsi0 at root
+scsibus3 at vscsi0: 256 targets
+softraid0 at root
+scsibus4 at softraid0: 256 targets
+sd0 has legacy label, please rewrite using disklabel(8)
+sd0 has legacy label, please rewrite using disklabel(8)
+root on sd0a swap on sd0b dump on sd0b
+sd0 has legacy label, please rewrite using disklabel(8)
+sd0 has legacy label, please rewrite using disklabel(8)
+sd0 has legacy label, please rewrite using disklabel(8)
+WARNING: /mnt was not properly unmounted
+inteldrm0: 1024x768, 32bpp
+wsdisplay0 at inteldrm0 mux 1: console (std, vt100 emulation), using wskbd0
+wskbd1: connecting to wsdisplay0
+wskbd2: connecting to wsdisplay0
+wsdisplay0: screen 1-5 added (std, vt100 emulation)
