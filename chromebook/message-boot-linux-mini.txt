@@ -1,0 +1,143 @@
+[4294667.296000] Linux version 2.6.12-9-386 (buildd@rothera) (gcc version 3.4.5 20050809 (prerelease) (Ubuntu 3.4.4-6ubuntu8)) #1 Mon Oct 10 13:14:36 BST 2005
+[4294667.296000] BIOS-provided physical RAM map:
+[4294667.296000]  BIOS-e820: 0000000000000000 - 000000000009f000 (usable)
+[4294667.296000]  BIOS-e820: 000000000009f000 - 00000000000a0000 (reserved)
+[4294667.296000]  BIOS-e820: 00000000000dc000 - 0000000000100000 (reserved)
+[4294667.296000]  BIOS-e820: 0000000000100000 - 000000001ff60000 (usable)
+[4294667.296000]  BIOS-e820: 000000001ff60000 - 000000001ff77000 (ACPI data)
+[4294667.296000]  BIOS-e820: 000000001ff77000 - 000000001ff79000 (ACPI NVS)
+[4294667.296000]  BIOS-e820: 000000001ff80000 - 0000000020000000 (reserved)
+[4294667.296000]  BIOS-e820: 00000000ff800000 - 0000000100000000 (reserved)
+[4294667.296000] 0MB HIGHMEM available.
+[4294667.296000] 511MB LOWMEM available.
+[4294667.296000] On node 0 totalpages: 130912
+[4294667.296000]   DMA zone: 4096 pages, LIFO batch:1
+[4294667.296000]   Normal zone: 126816 pages, LIFO batch:31
+[4294667.296000]   HighMem zone: 0 pages, LIFO batch:1
+[4294667.296000] DMI present.
+[4294667.296000] ACPI: RSDP (v002 IBM                                   ) @ 0x000f6df0
+[4294667.296000] ACPI: XSDT (v001 IBM    TP-1R    0x00003130  LTP 0x00000000) @ 0x1ff6a6cd
+[4294667.296000] ACPI: FADT (v003 IBM    TP-1R    0x00003130 IBM  0x00000001) @ 0x1ff6a800
+[4294667.296000] ACPI: SSDT (v001 IBM    TP-1R    0x00003130 MSFT 0x0100000e) @ 0x1ff6a9b4
+[4294667.296000] ACPI: ECDT (v001 IBM    TP-1R    0x00003130 IBM  0x00000001) @ 0x1ff76ebc
+[4294667.296000] ACPI: TCPA (v001 IBM    TP-1R    0x00003130 PTL  0x00000001) @ 0x1ff76f0e
+[4294667.296000] ACPI: BOOT (v001 IBM    TP-1R    0x00003130  LTP 0x00000001) @ 0x1ff76fd8
+[4294667.296000] ACPI: DSDT (v001 IBM    TP-1R    0x00003130 MSFT 0x0100000e) @ 0x00000000
+[4294667.296000] ACPI: PM-Timer IO Port: 0x1008
+[4294667.296000] Allocating PCI resources starting at 20000000 (gap: 20000000:df800000)
+[4294667.296000] Built 1 zonelists
+[4294667.296000] Kernel command line: BOOT_IMAGE=/syslinux/ubuntu/vmlinuz initrd=/ubuntu/image.gz root=/dev/rd/0 rw -- 
+[4294667.296000] Local APIC disabled by BIOS -- you can enable it with "lapic"
+[4294667.296000] mapped APIC to ffffd000 (01401000)
+[4294667.296000] Initializing CPU#0
+[4294667.296000] PID hash table entries: 2048 (order: 11, 32768 bytes)
+[4294667.296000] Detected 596.650 MHz processor.
+[4294667.296000] Using pmtmr for high-res timesource
+[4294667.296000] Console: colour VGA+ 80x25
+[4294667.309000] Dentry cache hash table entries: 131072 (order: 7, 524288 bytes)
+[4294667.317000] Inode-cache hash table entries: 65536 (order: 6, 262144 bytes)
+[4294667.410000] Memory: 495620k/523648k available (1415k kernel code, 27432k reserved, 763k data, 224k init, 0k highmem)
+[4294667.410000] Checking if this processor honours the WP bit even in supervisor mode... Ok.
+[4294667.411000] Calibrating delay loop... 1126.40 BogoMIPS (lpj=563200)
+[4294667.434000] Security Framework v1.0.0 initialized
+[4294667.434000] SELinux:  Disabled at boot.
+[4294667.434000] Mount-cache hash table entries: 512
+[4294667.435000] CPU: After generic identify, caps: afe9f9bf 00000000 00000000 00000000 00000180 00000000 00000000
+[4294667.435000] CPU: After vendor identify, caps: afe9f9bf 00000000 00000000 00000000 00000180 00000000 00000000
+[4294667.435000] CPU: L1 I cache: 32K, L1 D cache: 32K
+[4294667.435000] CPU: L2 cache: 2048K
+[4294667.435000] CPU: After all inits, caps: afe9f9bf 00000000 00000000 00000040 00000180 00000000 00000000
+[4294667.435000] CPU: Intel(R) Pentium(R) M processor 1.50GHz stepping 06
+[4294667.436000] Enabling fast FPU save and restore... done.
+[4294667.436000] Enabling unmasked SIMD FPU exception support... done.
+[4294667.436000] Checking 'hlt' instruction... OK.
+[4294667.440000] Checking for popad bug... OK.
+[4294667.441000] checking if image is initramfs...it isn't (no cpio magic); looks like an initrd
+[4294680.203000] Freeing initrd memory: 19862k freed
+[4294680.216000] ACPI: Looking for DSDT in initrd... not found!
+[4294682.561000]  not found!
+[4294682.944000] ACPI: setting ELCR to 0200 (from 0800)
+[4294682.956000] NET: Registered protocol family 16
+[4294682.956000] EISA bus registered
+[4294682.956000] ACPI: bus type pci registered
+[4294682.956000] PCI: PCI BIOS revision 2.10 entry at 0xfd8d6, last bus=8
+[4294682.956000] PCI: Using configuration type 1
+[4294682.956000] mtrr: v2.0 (20020519)
+[4294682.957000] ACPI: Subsystem revision 20050729
+[4294682.960000] ACPI: Found ECDT
+[4294682.989000] ACPI: Interpreter enabled
+[4294682.989000] ACPI: Using PIC for interrupt routing
+[4294682.991000] ACPI: PCI Interrupt Link [LNKA] (IRQs 3 4 5 6 7 9 10 *11)
+[4294682.992000] ACPI: PCI Interrupt Link [LNKB] (IRQs 3 4 5 6 7 9 10 *11)
+[4294682.994000] ACPI: PCI Interrupt Link [LNKC] (IRQs 3 4 5 6 7 9 10 *11)
+[4294682.996000] ACPI: PCI Interrupt Link [LNKD] (IRQs 3 4 5 6 7 9 10 *11)
+[4294682.997000] ACPI: PCI Interrupt Link [LNKE] (IRQs 3 4 5 6 7 9 10 11) *0, disabled.
+[4294682.999000] ACPI: PCI Interrupt Link [LNKF] (IRQs 3 4 5 6 7 9 10 11) *0, disabled.
+[4294683.000000] ACPI: PCI Interrupt Link [LNKG] (IRQs 3 4 5 6 7 9 10 11) *0, disabled.
+[4294683.002000] ACPI: PCI Interrupt Link [LNKH] (IRQs 3 4 5 6 7 9 10 *11)
+[4294683.003000] ACPI: PCI Root Bridge [PCI0] (0000:00)
+[4294683.003000] PCI: Probing PCI hardware (bus 00)
+[4294683.007000] ACPI: Assume root bridge [\_SB_.PCI0] segment is 0
+[4294683.012000] PCI: Ignoring BAR0-3 of IDE controller 0000:00:1f.1
+[4294683.012000] Boot video device is 0000:01:00.0
+[4294683.013000] PCI: Transparent bridge - 0000:00:1e.0
+[4294683.024000] ACPI: PCI Interrupt Routing Table [\_SB_.PCI0._PRT]
+[4294683.027000] burst-mode-ec-10-Aug
+[4294683.027000] ACPI: Embedded Controller [EC] (gpe 28)
+[4294683.028000] ACPI: Power Resource [PUBS] (on)
+[4294683.030000] ACPI: PCI Interrupt Routing Table [\_SB_.PCI0.AGP_._PRT]
+[4294683.031000] ACPI: PCI Interrupt Routing Table [\_SB_.PCI0.PCI1._PRT]
+[4294683.036000] Linux Plug and Play Support v0.97 (c) Adam Belay
+[4294683.036000] pnp: PnP ACPI init
+[4294683.047000] pnp: PnP ACPI: found 12 devices
+[4294683.047000] PnPBIOS: Disabled by ACPI PNP
+[4294683.047000] PCI: Using ACPI for IRQ routing
+[4294683.047000] PCI: If a device doesn't work, try "pci=routeirq".  If it helps, post a report
+[4294683.063000] Simple Boot Flag at 0x35 set to 0x1
+[4294683.064000] audit: initializing netlink socket (disabled)
+[4294683.064000] audit: initialized
+[4294683.064000] VFS: Disk quotas dquot_6.5.1
+[4294683.064000] Dquot-cache hash table entries: 1024 (order 0, 4096 bytes)
+[4294683.064000] devfs: 2004-01-31 Richard Gooch (rgooch@atnf.csiro.au)
+[4294683.064000] devfs: boot_options: 0x0
+[4294683.064000] Initializing Cryptographic API
+[4294683.064000] isapnp: Scanning for PnP cards...
+[4294683.399000] isapnp: No Plug & Play device found
+[4294683.436000] PNP: PS/2 Controller [PNP0303:KBD,PNP0f13:MOU] at 0x60,0x64 irq 1,12
+[4294683.440000] serio: i8042 AUX port at 0x60,0x64 irq 12
+[4294683.441000] serio: i8042 KBD port at 0x60,0x64 irq 1
+[4294683.441000] Serial: 8250/16550 driver $Revision: 1.90 $ 54 ports, IRQ sharing enabled
+[4294683.446000] pnp: Device 00:08 activated.
+[4294683.446000] ttyS0 at I/O 0x3f8 (irq = 4) is a NS16550A
+[4294683.448000] ACPI: PCI Interrupt Link [LNKB] enabled at IRQ 11
+[4294683.448000] PCI: setting IRQ 11 as level-triggered
+[4294683.448000] ACPI: PCI Interrupt 0000:00:1f.6[B] -> Link [LNKB] -> GSI 11 (level, low) -> IRQ 11
+[4294683.448000] ACPI: PCI interrupt for device 0000:00:1f.6 disabled
+[4294683.448000] io scheduler noop registered
+[4294683.448000] io scheduler anticipatory registered
+[4294683.448000] io scheduler deadline registered
+[4294683.448000] io scheduler cfq registered
+[4294683.449000] RAMDISK driver initialized: 16 RAM disks of 65536K size 1024 blocksize
+[4294683.450000] EISA: Probing bus 0 at eisa.0
+[4294683.450000] Cannot allocate resource for EISA slot 1
+[4294683.450000] Cannot allocate resource for EISA slot 2
+[4294683.450000] Cannot allocate resource for EISA slot 3
+[4294683.450000] Cannot allocate resource for EISA slot 8
+[4294683.450000] EISA: Detected 0 cards.
+[4294683.450000] NET: Registered protocol family 2
+[4294683.458000] input: AT Translated Set 2 keyboard on isa0060/serio0
+[4294683.459000] IP: routing cache hash table of 4096 buckets, 32Kbytes
+[4294683.459000] TCP established hash table entries: 32768 (order: 6, 262144 bytes)
+[4294683.459000] TCP bind hash table entries: 32768 (order: 5, 131072 bytes)
+[4294683.460000] TCP: Hash tables configured (established 32768 bind 32768)
+[4294683.460000] NET: Registered protocol family 8
+[4294683.460000] NET: Registered protocol family 20
+[4294683.460000] ACPI wakeup devices: 
+[4294683.460000]  LID SLPB PCI0 UART PCI1 USB0 USB1 AC9M 
+[4294683.460000] ACPI: (supports S0 S3 S4 S5)
+[4294683.462000] RAMDISK: Compressed image found at block 0
+[4294686.399000] VFS: Mounted root (ext2 filesystem).
+[4294686.400000] VFS: Mounted root (ext2 filesystem).
+[4294686.400000] Trying to move old root to /initrd ... okay
+[4294686.400000] Freeing unused kernel memory: 224k freed
+[4294686.489000] NET: Registered protocol family 1
